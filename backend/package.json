@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/credential-provider-node": "^3.624.0",
+    "@aws-sdk/types": "^3.609.0",
+    "@langchain/community": "^0.2.25",
+    "@langchain/openai": "^0.2.6",
+    "@smithy/eventstream-codec": "^2.2.0",
+    "@smithy/protocol-http": "^3.3.0",
+    "@smithy/signature-v4": "^2.3.0",
+    "@smithy/util-utf8": "^2.3.0",
+    "axios": "^1.7.3",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "langchain": "^0.2.15",
+    "multer": "^1.4.5-lts.1",
+    "neo4j-driver": "^5.23.0",
+    "npm": "^10.8.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
